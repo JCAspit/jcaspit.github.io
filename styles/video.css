@@ -1,0 +1,46 @@
+p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.ui-navigation {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.video-preview {
+	display: inline-block;
+	width: 300px
+}
+
+.thumbnail {
+	width: 300px;
+}
+
+.video-info {
+	display: inline-block;
+}
+
+.video-title {
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+.video-author {
+	font-size: 15px;
+}
+
+.video-stats {
+	font-size: 15px;
+}
+
+.channel-picture {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.profile-picture {
+	width: 50px;
+	border-radius: 100px;
+	margin-right: 5px;
+}

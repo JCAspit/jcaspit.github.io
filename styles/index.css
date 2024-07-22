@@ -1,0 +1,105 @@
+.submit-button {
+	background-color: #c308d1;
+	color: white;
+	border: none;
+	height: 24px;
+	width: 114px;
+	border-radius: 5px;
+	font-family: Serif;
+	cursor: pointer;
+	margin-right: 8px;
+	transition: opacity 0.15s,
+	box-shadow 0.1s;
+}
+
+.submit-button:hover {
+	opacity: 0.8;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.submit-button:active {
+	opacity: 0.5;
+}
+
+.clear-button {
+	background-color: white;
+	color: #1879db;
+	border: solid;
+	border-color: #1879db;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-width: 1px;
+	border-radius: 5px;
+	font-family: Serif;
+	cursor: pointer;
+	margin-right: 8px;
+	transition: background-color 0.5s,
+	color 0.5s;
+}
+
+.clear-button:hover {
+	background-color: #fc025e;
+	color: white;
+}
+
+.clear-button:active {
+	background-color: green;
+	color: white;
+}
+
+p {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.ui-navigation {
+	background-color: black;
+	color: white;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	right: 0px;
+	height: 25px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: lightgray;
+}
+
+.video-preview {
+	display: inline-block;
+	width: 300px
+}
+
+.thumbnail {
+	width: 300px;
+}
+
+.video-info {
+	display: inline-block;
+}
+
+.video-title {
+	font-size: 18px;
+	padding-bottom: 10px;
+}
+
+.video-author {
+	font-size: 15px;
+}
+
+.video-stats {
+	font-size: 15px;
+}
+
+.channel-picture {
+	display: inline-block;
+	vertical-align: top;
+}
+
+.profile-picture {
+	width: 50px;
+	border-radius: 100px;
+	margin-right: 5px;
+}

@@ -1,0 +1,9 @@
+p {
+	margin-top: 0;
+}
+
+.nav-bar {
+	background-color: gray;
+	height: 30px;
+	position: top;
+}
