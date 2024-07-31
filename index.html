@@ -5,11 +5,13 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>My Website</title>
 		<link rel="stylesheet" href="/styles/index.css">
+		<link rel="stylesheet" href="/styles/header.css">
+		<link rel="script" href="/index.js">
 		<link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
 	</head>
 	<body style="padding-top: 5px;">
 
-		<div class="ui-navigation">
+		<div class="header">
 			<a href="/index.html" style=" color: white; ">Home</a>
 		</div>
 		<h1>Howdy! o/</h1>
@@ -105,7 +107,7 @@
 		<b>Oops!</b> That wasn't quite the end.<br>
 		please take the time to here's<br>
 		a <em>form</em> for you to fill out :>
-		</p>
+		</details>
 		<form>
 			<label>favorite drink</label>
 			<input name="favorite drink" placeholder="e.g. Coke"><br>
@@ -119,8 +121,61 @@
 			Did you appreciate Gronkowski?
 			<input name="boo" type="checkbox"><br>
 
-			<button class="submit-button">Submit answers</button>
-			<button class="clear-button">Clear answers</button><br>
+			<button class="submit-button" onclick="
+				const b = 1;
+				alert(`(for legal reasons this button does nothing. ${b})`);
+			">Submit answers</button>
+			<button class="clear-button">Clear answers</button><br><br>
 		</form>
+		<hr><br>
+		<div style="display: inline-block; vertical-align: top;">
+			<details style="width: 150px;">
+				<summary><i><b>more details ig</b></i></summary>
+				<p align="left">「</p>
+				<div style="text-align: center;">
+					<p style="display: inline-block; text-align: left;">
+					hi<br>
+					this is<br>
+					a few more<br>
+					details<br>
+					i<br>
+					suppose?<br>
+					</p>
+				</div>
+				<p align="right">」</p>
+			</details>
+		</div>
+		<div style="display: inline-block; vertical-align: top;">
+			<details style="width: 150px;">
+				<summary><i><b>more details ig</b></i></summary>
+				<p align="left">「</p>
+				<div style="text-align: center;">
+					<p style="display: inline-block; text-align: left;">
+					hi<br>
+					this is<br>
+					a few more<br>
+					details<br>
+					i<br>
+					suppose?<br>
+					</p>
+				</div>
+				<p align="right">」</p>
+			</details>
+		</div>
+		<script>
+			const anon = () => new Date();
+			console.log(anon());
+			console.log([1, 2].concat([3, 4, 5]));
+			const arr = [1, -5, 8, -2, 5.0];
+			console.log(arr.filter(num => Number.isInteger(num) && num > 0).map(x => x * x));
+			function increment(num, value = 1) {
+				console.log(num + value);
+			}
+			increment(5);
+			function sum(...args) {
+				console.log(args.reduce((a, b) => a + b, 0));
+			}
+			sum(1, 2, 3, 4, 5);
+		</script>
 	</body>
 </html>
