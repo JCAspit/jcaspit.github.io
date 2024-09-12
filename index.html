@@ -10,28 +10,19 @@
 		<link rel="script" href="/index.js">
 		<link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
 	</head>
-	<style>
-.page-background {
-	background-color: #eeeeee;
-	margin-left: 15%;
-	margin-right: 15%;
-	margin-bottom: 25px;
-	padding-top: 10px;
-	padding-bottom: 25px;
-	padding-right: 35px;
-	padding-left: 35px;
-}
-	</style>
 	<body style="background-color: eeeeee; margin-top: 0px;">
 		<div class="header">
-			<a href="/index.html" style="color: white; margin-left: 12%;">Home</a>
+			<a href="/index.html" style="color: white; margin-left: 16%;">Home</a>
 		</div>
 		<div class="page-background">
 			<h1>Howdy! o/</h1>
+
 			<h2>Subtitle...</h2>
+
 			<p>
 			<!-- Howdy, this is a comment! -->
 			<b>Welcome...</b><br>
+
 			To this webpage of mine :<<br>
 			it's not <em>quite</em> finished yet.
 			but i hope it will be soon <span style="color: white; background-color: lightgray;">(likely not)</span><br><br>
@@ -46,12 +37,16 @@
 			<em>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</em><br>
 			<strong>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</strong>
 			</p>
+
 			<hr>
+
 			<a href="https://github.com/JCAspit/jcaspit.github.io" target="_blank">Lorem ipsum</a> dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor <span style="color: red;">incididunt</span> ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum<br><br>
+
 			<details>
 				<summary><i>click here for a picture</i></summary>
 				<img src="./assets/img.png" border="10" width=700 height=400 alt="A dazed anime girl">
 			</details>
+
 			<ul>
 				<li>Apples
 					<ul>
@@ -118,10 +113,11 @@
 
 			Or maybe watch <a href="/video_preview.html">this video</a>?<br><br>
 
+			<hr><br>
+
 			<b>Oops!</b> That wasn't quite the end.<br>
 			please take the time to here's<br>
 			a <em>form</em> for you to fill out :>
-			</p>
 			<form>
 				<label>favorite drink</label>
 				<input name="favorite drink" placeholder="e.g. Coke"><br>
@@ -141,7 +137,9 @@
 					">Submit answers</button>
 				<button class="clear-button">Clear answers</button><br><br>
 			</form>
+
 			<hr><br>
+
 			<div style="display: inline-block; vertical-align: top;">
 				<details style="width: 150px;">
 					<summary><i><b>more details ig</b></i></summary>
@@ -160,8 +158,8 @@
 				</details>
 			</div>
 			<div style="display: inline-block; vertical-align: top;">
-				<details style="width: 150px;">
-					<summary><i><b>more details ig</b></i></summary>
+				<details style="width: 250px;">
+					<summary><i><b>even more details...?</b></i></summary>
 					<p align="left">「</p>
 					<div style="text-align: center;">
 						<p style="display: inline-block; text-align: left;">
@@ -177,22 +175,25 @@
 				</details>
 			</div>
 		</div>
-		<script>
-			console.log("Loading script. . .")
-			const anon = () => new Date();
-			console.log(anon());
-			console.log([1, 2].concat([3, 4, 5]));
-			const arr = [1, -5, 8, -2, 5.0];
-			console.log(arr.filter(num => Number.isInteger(num) && num > 0).map(x => x * x));
-			function increment(num, value = 1) {
-				console.log(num + value);
-			}
-			increment(5);
-			function sum(...args) {
-				console.log(args.reduce((a, b) => a + b, 0));
-			}
-			sum(1, 2, 3, 4, 5);
-			console.log("Finished loading script.")
-		</script>
+		<div class="footer">
+			<a href="https://github.com/JCAspit/jcaspit.github.io" target="_blank" style="color: white; margin-right: 15px;">source</a>
+		</div>
 	</body>
+	<script>
+		console.log("Loading script. . .")
+		const anon = () => new Date();
+		console.log(anon());
+		console.log([1, 2].concat([3, 4, 5]));
+		const arr = [1, -5, 8, -2, 5.0];
+		console.log(arr.filter(num => Number.isInteger(num) && num > 0).map(x => x * x));
+		function increment(num, value = 1) {
+			console.log(num + value);
+		}
+		increment(5);
+		function sum(...args) {
+			console.log(args.reduce((a, b) => a + b, 0));
+		}
+		sum(1, 2, 3, 4, 5);
+		console.log("Finished loading script.")
+	</script>
 </html>

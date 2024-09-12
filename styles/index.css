@@ -54,17 +54,15 @@ p {
 	margin-bottom: 0px;
 }
 
-.ui-navigation {
-	background-color: black;
-	color: white;
-	position: fixed;
-	top: 0px;
-	left: 0px;
-	right: 0px;
-	height: 25px;
-	border-bottom-width: 1px;
-	border-bottom-style: solid;
-	border-bottom-color: lightgray;
+.page-background {
+	background-color: #eeeeee;
+	margin-left: 15%;
+	margin-right: 15%;
+	margin-bottom: 25px;
+	padding-top: 10px;
+	padding-bottom: 25px;
+	padding-right: 35px;
+	padding-left: 35px;
 }
 
 .video-preview {

@@ -6,4 +6,28 @@
 	left: 0px;
 	right: 0px;
 	height: 25px;
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: lightgray;
 }
+
+.header#a {
+}
+
+.footer {
+	background-color: black;
+	color: white;
+	position: floating;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	height: 25px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: lightgray;
+	text-align: right;
+}
+
+.footer#a {
+}
+
